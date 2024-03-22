@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/homepage.css" />
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="navigation">
+        <nav class="navbar">
+          <img
+            src="/assets/images/logo.svg"
+            alt="news homepage logo"
+            class="logo"
+          />
+          <div class="nav-links">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/">New</a></li>
+              <li><a href="/">Popular</a></li>
+              <li><a href="/">Trending</a></li>
+              <li><a href="/">Categories</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="homepage">
+        <div class="new-cards">
+          <picture>
+            <source
+              media="(max-width: 490px)"
+              srcset="/assets/images/image-web-3-mobile.jpg"
+            />
+            <img src="/assets/images/image-web-3-desktop.jpg" alt="" />
+          </picture>
+        </div>
+        <div class="new-cards">
+          <div class="first">
+            <h1 class="news-heading">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="second">
+            <p class="faded">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="primary">Read more</button>
+          </div>
+        </div>
+        <div class="new-cards new-article">
+          <h5 class="new">New</h5>
+          <div>
+            <h6 class="white-heading">Hydrogen VS Electric Cars</h6>
+            <p class="faded leading-6">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+
+          <div class="border-y-1">
+            <h6 class="white-heading">The Downsides of AI Artistry</h6>
+            <p class="faded leading-6">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+
+          <div>
+            <h6 class="white-heading">Is VC Funding Drying Up?</h6>
+            <p class="faded leading-6">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+        <div class="new-cards flex-card">
+          <div>
+            <img
+              class="more-news-img"
+              src="/assets/images/image-retro-pcs.jpg"
+              alt=""
+            />
+          </div>
+          <div class="space-evenly">
+            <h4 class="faded-number">01</h4>
+
+            <h5 class="text-sm">Reviving Retro PCs</h5>
+            <p class="faded leading-6">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="new-cards flex-card">
+          <div>
+            <img
+              class="more-news-img"
+              src="/assets/images/image-top-laptops.jpg"
+              alt=""
+            />
+          </div>
+          <div class="space-evenly">
+            <h4 class="faded-number">02</h4>
+            <h5 class="text-sm">Top 10 Laptops of 2022</h5>
+            <p class="faded leading-6">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="new-cards flex-card">
+          <div>
+            <img
+              class="more-news-img"
+              src="/assets/images/image-gaming-growth.jpg"
+              alt=""
+            />
+          </div>
+          <div class="space-evenly">
+            <h4 class="faded-number">03</h4>
+            <h5 class="text-sm">The Growth of Gaming</h5>
+            <p class="faded leading-6">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/abok-cymk">abok-cymk</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
