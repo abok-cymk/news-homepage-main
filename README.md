@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/abok-cymk)
-- Live Site URL: [Add live site URL here](https://)
+- Solution URL: [abok-cymk](https://github.com/abok-cymk)
+- Live Site URL: [news-homepage-main-abok.vercel.app](https://news-homepage-main-abok.vercel.app/)
 
 ## My process
 
